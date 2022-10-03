@@ -1,0 +1,372 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+				<meta charset="UTF-8">
+				<title>Css grid</title>
+				<link rel="stylesheet" href="grid.css">
+				<style>
+								.red{
+				width:120px;
+				height:120px;
+				border:2px solid red;
+				padding:10px 0px 0px 10px;
+				background-color:red ;
+}
+.green{
+				width:120px;
+				height:120px;
+				border:2px solid green;
+				padding:10px 0px 0px 15px;
+				margin-left:-3px;
+				background-color:green ;
+}
+.y{
+				width:20px;
+				height:21px;
+				background-color: orange;
+				border:1.1px solid black;
+				margin:-1px;
+				padding:0px;
+}
+.demo{
+				display:inline-block;
+				margin:-1.5px;
+}
+.bg{
+				width:338px;
+				height:349px;
+				border:3px solid black;
+				display:grid;
+				grid-template-columns:0.5fr 1fr 0.5fr;
+				background-color:black;
+				margin-top:130px;
+                align-items: center;
+                margin-left: 330px;
+}
+.box{
+				width:30px;
+				height:30px;
+				border-radius:50%;
+				border:1px solid red;
+				background-color: silver;
+				margin:4px;
+				text-align: center;
+				font-size:30px;
+				color:red;				
+}
+.red .sub .box{
+				display:inline-block;
+				text-align: center;
+}
+.box1{
+				width:30px;
+				height:30px;
+				border-radius:50%;
+				border:1px solid green;
+				background-color: silver;
+				margin:4px;
+				text-align: center;
+				font-size:30px;
+				color:green;				
+}
+.green .sub .box1{
+				display:inline-block;
+				text-align: center;
+}
+.x{
+				width:21.2px;
+				height:25px;
+				background-color: orange;
+				border:1.1px solid black;
+				margin:-1px;					
+}
+.center{
+				width:70px;
+				height:80px;
+				background-color: silver;
+				margin:0px 0px 0px 0px;
+}
+.blue{
+				width:120px;
+				height:120px;
+				border:2px solid blue;
+				padding:10px 0px 0px 10px;
+				margin-top:-1px ;
+				background-color:blue ;
+}
+.yellow{
+				width:120px;
+				height:120px;
+				border:2px solid yellow;
+				padding:10px 0px 0px 10px;
+				margin-top:-1px ;
+				background-color: yellow;
+}
+.blue .sub .box2{
+				display:inline-block;
+				text-align: center;
+}
+.yellow .sub .box3{
+				display:inline-block;
+				text-align: center;
+}
+.box2{
+				width:30px;
+				height:30px;
+				border-radius:50%;
+				border:1px solid blue;
+				background-color: silver;
+				margin:4px;
+				text-align: center;
+				font-size:30px;
+				color:blue;
+				
+}
+.box3{
+				width:30px;
+				height:30px;
+				border-radius:50%;
+				border:1px solid yellow;
+				background-color: silver;
+				margin:4px;
+				text-align:center;
+				font-size:30px;			
+				color:yellow;
+				
+}
+.demo1{
+				display:inline-block;
+				margin:-1.5px;
+}
+.g{
+				margin-top:0px ;
+				margin-left:4.5px ;
+}
+.p{
+				margin-top:4px;
+				margin-left:3px;
+}
+.b{
+				background-color: powderblue;
+}
+.s{
+				background-color: green;
+}
+.r{
+				background-color: red;
+}
+.y3{
+				background-color: yellow;
+}
+.v{
+				background-color:blue;
+}
+.dem{
+				display: inline-block;
+				margin:-1.5px;
+}
+.cent{
+				margin-top:2.6px;
+				margin-left:2px;
+}
+.x1{
+				width:22px;
+				height:25px;
+				background-color: transperent;
+				border:1.1px solid black;
+				margin:-1px;
+} 
+body{
+				background:url(s.jpeg);
+				align-content: center;
+}
+.head{
+				font-size:50px;
+				font-family:san-serif;
+				text-align:center;
+				color:white;
+				border:2px solid white;
+				background-color: green;
+				border-radius:5px;
+}
+				</style>
+</head>
+<body>
+				<p class="head">LUDO KING 👑</p>
+			<div class="bg">
+				<div class="red display">
+										<div class="sub">
+													<div class="box">&#9823</div>
+													<div class="box">&#9823</div>
+												</div>			
+												<div class="sub">
+													<div class="box">&#9823</div>
+													<div class="box">&#9823</div>
+												</div>												
+								</div>
+						<div class="display g">
+								<div class="demo">
+												<div class="y"></div>
+												<div class="y"></div>
+												<div class="y b"></div>
+												<div class="y"></div>
+												<div class="y"></div>
+												<div class="y"></div>
+								</div>
+						<div class="demo">
+												<div class="y"></div>
+												<div class="y s"></div>
+												<div class="y s"></div>
+												<div class="y s"></div>
+												<div class="y s"></div>
+												<div class="y s"></div>
+								</div>
+									<div class="demo">
+												<div class="y"></div>
+												<div class="y s"></div>
+												<div class="y"></div>
+												<div class="y"></div>
+												<div class="y"></div>
+												<div class="y"></div>
+								</div>
+							</div>	
+								<div class="green display">
+										<div class="sub">
+												<div class="box1">&#9823</div>
+												<div class="box1">&#9823</div>
+										</div>			
+										<div class="sub">
+												<div class="box1">&#9823</div>
+												<div class="box1">&#9823</div>
+												</div>												
+								</div>							
+							<div class="display p">
+										<div class="demo">
+												<div class="x"></div>
+												<div class="x"></div>
+												<div class="x"></div>
+								  </div>
+								  <div class="demo">
+												<div class="x r"></div>
+												<div class="x r"></div>
+												<div class="x"></div>
+								</div>
+								<div class="demo">
+												<div class="x"></div>
+												<div class="x r"></div>
+												<div class="x b"></div>
+								</div>
+								<div class="demo">
+												<div class="x"></div>
+												<div class="x r"></div>
+												<div class="x"></div>
+								</div>
+								<div class="demo">
+												<div class="x"></div>
+												<div class="x r"></div>
+												<div class="x"></div>
+								</div>
+								<div class="demo">
+												<div class="x"></div>
+												<div class="x r"></div>
+												<div class="x"></div>
+								</div>
+						</div>
+				<div class="display cent">
+						<div class="dem">
+									<div class="x1 "></div>
+										<div class="x1 r"></div>
+										<div class="x1 "></div>
+						</div>
+						<div class="dem">
+									<div class="x1 s"></div>
+										<div class="x1"></div>
+										<div class="x1 v"></div>
+						</div>
+						<div class="dem">
+									<div class="x1"></div>
+										<div class="x1 y3"></div>
+										<div class="x1"></div>
+						</div>
+						</div>
+						<div class="display p">
+										<div class="demo">
+												<div class="x"></div>
+												<div class="x y3"></div>
+												<div class="x"></div>
+								  </div>
+								  <div class="demo">
+												<div class="x"></div>
+												<div class="x y3"></div>
+												<div class="x"></div>
+								</div>
+								<div class="demo">
+												<div class="x"></div>
+												<div class="x y3"></div>
+												<div class="x"></div>
+								</div>
+								<div class="demo">
+												<div class="x b"></div>
+												<div class="x y3"></div>
+												<div class="x"></div>
+								</div>
+								<div class="demo">
+												<div class="x"></div>
+												<div class="x y3"></div>
+												<div class="x y3"></div>
+								</div>
+								<div class="demo">
+												<div class="x"></div>
+												<div class="x"></div>
+												<div class="x"></div>
+								</div>
+						</div>																		
+					<div class="blue display">
+										<div class="sub">
+												<div class="box2">&#9823</div>
+												<div class="box2">&#9823</div>
+												</div>			
+												<div class="sub">
+												<div class="box2">&#9823</div>
+												<div class="box2">&#9823</div>
+												</div>												
+								</div>
+						<div class="display g">
+								<div class="demo1 h">
+												<div class="y"></div>
+												<div class="y"></div>
+												<div class="y"></div>
+												<div class="y"></div>
+												<div class="y v"></div>
+												<div class="y"></div>
+								</div>
+						<div class="demo1 h">
+												<div class="y v"></div>
+												<div class="y v"></div>
+												<div class="y v "></div>
+												<div class="y v"></div>
+												<div class="y v"></div>
+												<div class="y"></div>
+								</div>
+									<div class="demo1 h">
+												<div class="y"></div>
+												<div class="y"></div>
+												<div class="y"></div>
+												<div class="y b"></div>
+												<div class="y"></div>
+												<div class="y"></div>
+								</div>
+							</div>	
+								<div class="yellow display">
+										<div class="sub">
+												<div class="box3">&#9823</div>
+												<div class="box3">&#9823</div>
+										</div>			
+										<div class="sub">
+												<div class="box3">&#9823</div>
+												<div class="box3">&#9823</div>
+												</div>												
+								</div>							
+					</div>	
+</body>
+</html>

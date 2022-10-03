@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>calculator</title>
+    <link rel="stylesheet" href="cal.css">
+
+</head>
+<body>
+    <div class="calculator">
+        <form name="demo">
+            <input type="text" class="display" name="cal" disabled id="it"><br>
+
+            <input type="button" class="keys" value="9" onclick="demo.cal.value+='9'">
+            <input type="button" class="keys" value="8" onclick="demo.cal.value+='8'">
+            <input type="button" class="keys" value="7" onclick="demo.cal.value+='7'">
+            <input type="button" class="keys z" value="<--" onclick="demo.cal.value=''"><br>
+
+            <input type="button" class="keys" value="6" onclick="demo.cal.value+='6'">
+            <input type="button" class="keys" value="5" onclick="demo.cal.value+='5'">
+            <input type="button" class="keys" value="4" onclick="demo.cal.value+='4' ">
+            <input type="button" class="keys x" value="+" onclick="demo.cal.value+='+'"><br>
+
+
+
+            <input type="button" class="keys" value="3" onclick="demo.cal.value+='3'">
+
+
+            <input type="button" class="keys" value="2" onclick="demo.cal.value+='2'">
+            <input type="button" class="keys" value="1" onclick="demo.cal.value+='1'">
+            <input type="button" class="keys x " value="--" onclick="demo.cal.value+='-'"><br>
+
+
+
+            <input type="button" class="keys" value="0" onclick="demo.cal.value+='0'">
+            <input type="button" class="keys x y" value="." onclick="demo.cal.value+='. '">
+
+
+
+
+            <input type="button" class="keys x" value="*" onclick="demo.cal.value+='*'">
+            <input type="button" class="keys x" value="/" onclick="demo.cal.value+='/'"><br>
+
+
+            <input type="button" class="key" value="=" onclick="demo.cal.value=eval(demo.cal.value)">
+
+
+        </form>
+    </div>
+</body>
+</html>
