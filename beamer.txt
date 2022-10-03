@@ -1,0 +1,183 @@
+% Creating a simple Title Page in Beamer
+\documentclass{beamer}
+
+% Theme choice:
+%\usetheme{Marburg}
+\usetheme{CambridgeUS}
+% \usetheme{Antibes}
+
+% Title page details: 
+\title{My First \LaTeX{} Presentation}
+\subtitle{G.Pavankumar}
+%\author{Pavan}
+%\institute{IT WORKSHOP}
+
+% Multiple authors
+ %\author{First~Author \and 
+ %  Second~Author \and
+  %Third~Author \and
+  %Fourth~Author \and
+ % Fifth~Author}
+
+%Two authors with different affiliations
+%\author{First Author\inst{1} \and Second Author\inst{2}}
+%\institute{\inst{1} Affiliation of the 1st author \and
+%\inst{2} Affiliation of the 2nd author}
+
+\date{\today}
+
+%\logo{
+   %\includegraphics[width=3cm]{index.jpeg}
+%}
+
+% Logo only on title page
+%\titlegraphic{
+    %+\includegraphics[width=2cm]{web1.jpeg}
+%}
+
+% Modify footer text: 
+% \title[Center text]{Your First \LaTeX{} Presentation}
+% \subtitle{My-subtitle}
+% \author[Left text]{latex-beamer.com}
+% \date[Right text]{\today}
+
+% Define a counter
+% \newcounter{currentenumi}
+
+\begin{document}
+     
+% Title page frame
+\begin{frame}
+    \titlepage
+\end{frame}
+
+% % Outline frame
+\begin{frame}{Outline}
+    %\tableofcontents
+\begin{itemize}
+   \item Personal Info
+    \item Marks
+    \item Image
+\end{itemize}
+    
+\end{frame}
+
+% % % Presentation structure
+%\section{Introduction}
+%\section{Existing results}
+  %\subsection{}
+% %     \subsection{Method 2}
+% %     \subsection{Method 3}
+% % \section{Comparative study}
+% % \section*{References}
+
+%\begin{frame}
+% to enforce entries in the table of contents
+%\end{frame}
+
+% % Abstract environment
+% \begin{abstract}
+%   content
+% \end{abstract}
+
+ %\begin{frame}{Ordered Lists in Beamer}
+ %\begin{enumerate}
+  
+  %   \item Item 1
+   %  \item Item 2
+   % \item Item 3
+ %\end{enumerate}
+%\end{frame}
+\begin{frame}{Personal Info}
+\begin{enumerate}
+\begin{itemize}
+    \item Name: Pavan kumar 
+    \item Course : BTech
+    \item Year : E1
+    \item Branch : CSE
+    \item District : Rangareddy
+    \item Village : Amangal
+\end{itemize}
+\end{enumerate}
+\end{frame}
+% \begin{frame}{Lists in multiple frames}{Frame 1}
+% \begin{enumerate}
+%     \item Item 1
+%     \item Item 2
+%     \item Item 3
+% % Store the actual item number
+%     \setcounter{currentenumi}{\theenumi}
+% \begin{enumerate}
+% \end{frame}
+% \begin{frame}{Lists in multiple frames}{Frame 2}
+% \begin{enumerate}
+% % Use the previous stored item number
+% \setcounter{enumi}{\thecurrentenumi}
+%     \item Item 4
+%     \item Item 5
+% \end{enumerate}
+% \end{frame}
+
+% %Columns
+% \begin{frame}{Text and Image in beamer}
+%     \begin{columns}
+%     \column{0.4\textwidth}
+%         This is an example of text and image in the same slide using columns environment.
+%     \column{0.6\textwidth}
+%         \begin{figure}
+%         \centering
+%         \includegraphics[width=\textwidth]{nn.png}
+%         \caption{Neural Network with 5 neurons in the hidden layer. }
+%         \end{figure}
+%     \end{columns}
+% \end{frame}
+
+
+
+% \begin{frame}{Block environment}{Madrid theme}
+% \begin{block}{Block title}
+%     It can be useful to treat some content differently by putting it into a block. This can be done by using blocks!
+% \end{block}
+% \end{frame}
+
+% \begin{frame}{Basic Blocks}
+%     \begin{block}{Standard Block}
+%         This is a standard block.
+%     \end{block}
+%     \begin{alertblock}{Alert Message}
+%         This block presents alert message.
+%     \end{alertblock}
+%     \begin{exampleblock}{An example of typesetting tool}
+%         Example: MS Word, \LaTeX{}
+%     \end{exampleblock}
+% \end{frame}
+
+
+ \begin{frame}{My SEM MARKS SHEET}
+ \begin{tabular}{  |c|c|}
+\hline
+     %centered & left-aligned & right-aligned \\ 
+      SUBJET & MARKS \\
+ \hline
+    maths & 87\\ 
+\hline
+     chemistry & 78\\ 
+ \hline
+    physics & 85\\
+\hline
+    it & 88\\
+\hline
+ \end{tabular}
+
+ 
+
+\end{frame}
+\begin{frame}{Image}
+\begin{figure}
+    \centering
+    \includegraphics[width=80]{index.jpeg}
+    \caption{albert einstein}
+    \label{fig:my_label}
+\end{figure}
+\end{frame}
+\end{document}
